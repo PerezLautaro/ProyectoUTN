@@ -12,8 +12,10 @@ img{
 /*HEADER y NAVEGADOR*/
 
 .header{ 
-    background-color: rgb(240, 135, 37);
+    background-color: rgb(221, 111, 9);
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .logo{
@@ -29,14 +31,23 @@ img{
 }
 
 .navegador .navitem a{
-    color: white;
+    color: black;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .navitem a:hover{
-   color:black;
+   color: white;
 }
 
 .navitem a:active{
-    color: black;
+    color: white;
+}
+
+.tituloestetica h2{
+    text-align: center;
+    margin: 2%;
+    font-weight: bold;
+    color: rgb(212, 164, 74);
+    font-size: 40px;
 }
