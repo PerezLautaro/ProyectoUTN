@@ -12,15 +12,14 @@ img{
 /*HEADER y NAVEGADOR*/
 
 .header{ 
-    background-color: rgb(238, 132, 34);
+    background-color: #f48404;
     display: flex;
     position: sticky;
     top: 0;
 }
 
 .logo{
-    width: 5%;
-    margin-left: 2%;
+    width: 6%;
 }
 
 .navegador{
