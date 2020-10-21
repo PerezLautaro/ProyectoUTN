@@ -12,7 +12,7 @@ img{
 /*HEADER y NAVEGADOR*/
 
 .header{ 
-    background-color: rgb(221, 111, 9);
+    background-color: rgb(238, 132, 34);
     display: flex;
     position: sticky;
     top: 0;
