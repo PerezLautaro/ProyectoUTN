@@ -51,3 +51,11 @@ img{
     color: rgb(212, 164, 74);
     font-size: 40px;
 }
+
+.titulosalud h2{
+    text-align: center;
+    margin: 2%;
+    font-weight: bold;
+    color: rgb(212, 164, 74);
+    font-size: 40px;
+}
