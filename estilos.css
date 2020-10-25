@@ -69,6 +69,7 @@ footer{
 /*Formulario*/
 
 .titulocontacto{
+    text-align: center;
     font-weight: bold;
     color: rgb(212, 164, 74);
     font-size: 40px;
@@ -76,8 +77,8 @@ footer{
 }
 
 #formulario{
-    margin: 1%;
-    padding: 1%;
+    margin: 2%;
+    padding: 2%;
     box-sizing: border-box;
     background-color: #f4840498;
     box-sizing: border-box;
@@ -86,13 +87,44 @@ footer{
 #formulario textarea{
     resize: none;
     width: 100%;
+    cursor: pointer;
 }
 
-#formulario input,textarea{
+#formulario input{
     cursor: pointer;
+    width: 100%;
 
+}
+
+.boton{
+    cursor: pointer;
+    width: 30% !important;
 }
 
 .mapa{
+   margin-top: 10%;
+}
+
+.whatsapp{
+    width: 10%;
+}
+
+.instagram{
+    width: 10%;
+}
+
+.facebook{
+    width: 10%;
+}
+
+.redessociales{
     margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #f0902277;
+    box-sizing: border-box;
+}
+
+.redessociales a{
+    color: black;
 }
