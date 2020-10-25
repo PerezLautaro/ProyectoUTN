@@ -65,3 +65,34 @@ footer{
     background-color: rgb(212, 164, 74);
     text-align: center;
 }
+
+/*Formulario*/
+
+.titulocontacto{
+    font-weight: bold;
+    color: rgb(212, 164, 74);
+    font-size: 40px;
+
+}
+
+#formulario{
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: #f4840498;
+    box-sizing: border-box;
+}
+
+#formulario textarea{
+    resize: none;
+    width: 100%;
+}
+
+#formulario input,textarea{
+    cursor: pointer;
+
+}
+
+.mapa{
+    margin: 2%;
+}
