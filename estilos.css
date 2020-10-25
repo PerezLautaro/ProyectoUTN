@@ -103,6 +103,7 @@ footer{
 
 .mapa{
    margin-top: 10%;
+   margin-bottom: 5%;
 }
 
 .whatsapp{
@@ -127,4 +128,14 @@ footer{
 
 .redessociales a{
     color: black;
+}
+
+/*NOSOTROS*/
+
+#carouselExampleIndicators{
+    padding: 4%;
+}
+
+.parrafo{
+    padding: 2%;
 }
