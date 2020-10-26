@@ -8,6 +8,11 @@
 img{
     width: 100%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
 
 /*HEADER y NAVEGADOR*/
 
@@ -41,9 +46,18 @@ img{
     font-size: 40px;
 }
 
+.titulonosotros{
+    text-align: center;
+    margin: 2%;
+    font-weight: bold;
+    color: rgb(212, 164, 74);
+    font-size: 40px;
+    font-family: 'Lato:'
+}
+
 
 footer{
-    background-color: rgb(212, 164, 74);
+    background-color: #e1bf83;
     text-align: center;
 }
 
@@ -51,17 +65,17 @@ footer{
 
 .titulocontacto{
     text-align: center;
+    margin: 2%;
     font-weight: bold;
     color: rgb(212, 164, 74);
     font-size: 40px;
-
 }
 
 #formulario{
     margin: 2%;
     padding: 2%;
     box-sizing: border-box;
-    background-color: #f4840498;
+    background-color: #f19100cc;
     box-sizing: border-box;
 }
 
@@ -103,7 +117,7 @@ footer{
     margin: 2%;
     padding: 2%;
     box-sizing: border-box;
-    background-color: #f0902277;
+    background-color: #d6921cc5;
     box-sizing: border-box;
 }
 
