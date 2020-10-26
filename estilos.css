@@ -124,6 +124,15 @@ footer{
 
 .redessociales a{
     color: black;
+    text-decoration: none;
+}
+
+.redessociales a:hover{
+    color: white;
+}
+
+.redessociales a:active{
+    color: white;
 }
 
 /*NOSOTROS*/
