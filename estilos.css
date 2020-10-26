@@ -8,10 +8,11 @@
 img{
     width: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body{
-    font-family: 'Montserrat';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*HEADER y NAVEGADOR*/
@@ -36,6 +37,7 @@ body{
     font-weight: bold;
     color: rgb(212, 164, 74);
     font-size: 40px;
+    
 }
 
 .titulosalud h2{
