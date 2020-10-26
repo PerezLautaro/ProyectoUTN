@@ -9,10 +9,10 @@ img{
     width: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*HEADER y NAVEGADOR*/
@@ -54,7 +54,7 @@ body{
     font-weight: bold;
     color: rgb(212, 164, 74);
     font-size: 40px;
-    font-family: 'Lato:'
+
 }
 
 
