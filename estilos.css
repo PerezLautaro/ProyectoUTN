@@ -69,6 +69,14 @@ footer{
     font-size: 40px;
 }
 
+.tituloubicacion{
+    text-align: center;
+    margin: 2%;
+    font-weight: bold;
+    color: #f19100;
+    font-size: 40px;
+}
+
 #formulario{
     margin: 2%;
     padding: 2%;
@@ -89,16 +97,33 @@ footer{
 
 }
 
-.boton{
-    cursor: pointer;
-    width: 20% !important;
+#formulario :required:hover{
+    border-color: #f19100;
+}
 
+#formulario :required:active{
+    border-color: #f19100;
 }
 
 
+.boton{
+    cursor: pointer;
+    width: 20% !important;
+    border-radius: 50px;
+
+}
+
+.boton:hover{
+    background-color: #d6921cc5;
+}
+
+.boton:active{
+    background-color: #d6921cc5;
+}
+
 .mapa{
-   margin-top: 10%;
-   margin-bottom: 5%;
+  
+   padding-bottom: 10%;
 }
 
 .whatsapp{
