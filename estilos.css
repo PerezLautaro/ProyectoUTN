@@ -15,8 +15,6 @@ img{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #f19100;
-
 }
 
 #navegador a:hover{
@@ -80,7 +78,7 @@ footer{
     margin: 2%;
     padding: 2%;
     box-sizing: border-box;
-    background-color: #ca984dcc;
+    background: linear-gradient(#ca984dcc,#cca76fcc);
     box-sizing: border-box;
 }
 
@@ -142,7 +140,7 @@ footer{
     margin: 2%;
     padding: 2%;
     box-sizing: border-box;
-    background-color: #d6921cc5;
+    background: linear-gradient(#d6921cc5,#f3ba58c5);
     box-sizing: border-box;
 }
 
