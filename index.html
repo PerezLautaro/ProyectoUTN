@@ -10,37 +10,37 @@
 </head>
 <body style="font-family: 'Ubuntu', sans-serif;">
 
-    <main id="pagina">
+    <!--NAVEGADOR-->
 
-        <!--NAVEGADOR-->
+    <div class="container-fluid" id="navegador">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f19100;">
+            <a class="navbar-brand text-white">
+                <img src="" alt="">
+            </a>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Estética</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="Salud.html" class="nav-link">Salud</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="nosotros.html" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-        <div class="container-fluid" id="navegador">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f19100;">
-                <a class="navbar-brand text-white">
-                    <img src="" alt="">
-                </a>
-                <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a href="#estetica" class="nav-link">Estética</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="#salud" class="nav-link">Salud</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="nosotros.html" class="nav-link">Nosotros</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="contacto.html" class="nav-link">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
 
+    <header>
 
         <!--PORTADA-->
 
@@ -48,6 +48,10 @@
             <img src="img/portada.jpg" alt="Portada" class="img-fluid">
         </div>
 
+    </header>
+    
+    <main id="pagina">
+        
         <!--CONTENIDO ESTÉTICA-->
 
         <section class="container-fluid">
@@ -68,47 +72,51 @@
                                 <h4 style="font-weight: bold;">Adiposidad</h4>
                             </div>
                             <div>
-                                <p> La adiposidad se da por acumulación de grasa en diversas zonas del cuerpo, pudiendose tratar con aparatología y masoterapia.
+                                <p> La adiposidad se da por acumulación de grasa en diversas zonas del cuerpo, pudiendose tratar con aparatología y masoterapia.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <article>
+                            <div>
+                                <img src="img/celulitis.jpg" alt="celulitis" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Celulitis</h4>
+                            </div>
+                            <div>
+                                <p> Es una afección frecuente en las mujeres,  que provoca la aparición de protuberancias y hoyuelos en la piel.
                                 </p>
                             </div>
                         </article>
-                        
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/celulitis.jpg" alt="celulitis" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Celulitis</h4>
-                        </div>
-                        <div>
-                            <p> Es una afección frecuente en las mujeres,  que provoca la aparición de protuberancias y hoyuelos en la piel.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/Estrias-en-la-piel.jpg" alt="estrias" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Estrías</h4>
+                            </div>
+                            <div>
+                                <p> Las estrías son atrofias cutáneas en forma de líneas sinuosas de color blanquecino o amoratadas localizadas en el tejido conjuntivo.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/Estrias-en-la-piel.jpg" alt="estrias" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Estrías</h4>
-                        </div>
-                        <div>
-                            <p> Las estrías son atrofias cutáneas en forma de líneas sinuosas de color blanquecino o amoratadas localizadas en el tejido conjuntivo.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/flacidez.jpg" alt="flacidez" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Flacidez</h4>
-                        </div>
-                        <div>
-                            <p> La flacidez es la pérdida de tensión de los tejidos por la pérdida de colágeno y elastina. Se trata principalmente con aparatología, masoterapia y dermocosmética. Se recomienda también cambios en la dieta e incremento de ejercicio.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/flacidez.jpg" alt="flacidez" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Flacidez</h4>
+                            </div>
+                            <div>
+                                <p> La flacidez es la pérdida de tensión de los tejidos por la pérdida de colágeno y elastina. Se trata principalmente con aparatología, masoterapia y dermocosmética. Se recomienda también cambios en la dieta e incremento de ejercicio.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -121,52 +129,60 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/acne.jpg" alt="acne" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Acné</h4>
-                        </div>
-                        <div>
-                            <p> Enfermedad de la piel que se caracteriza por la inflamación de las glándulas sebáceas y la aparición de espinillas y granos, en especial en la cara y la espalda.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/acne.jpg" alt="acne" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Acné</h4>
+                            </div>
+                            <div>
+                                <p> Enfermedad de la piel que se caracteriza por la inflamación de las glándulas sebáceas y la aparición de espinillas y granos, en especial en la cara y la espalda.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/limpiezadecutis.jpg" alt="limpiezadecutis" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Limpieza De Cutis</h4>
-                        </div>
-                        <div>
-                            <p> Es un procedimiento no agresivo ni invasivo, destinado a mejorar el aspecto de la piel, corregir la dilatación de los poros y eliminar las células más superficiales.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/limpiezadecutis.jpg" alt="limpiezadecutis" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Limpieza De Cutis</h4>
+                            </div>
+                            <div>
+                                <p> Es un procedimiento no agresivo ni invasivo, destinado a mejorar el aspecto de la piel, corregir la dilatación de los poros y eliminar las células más superficiales.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/peeling.jpg" alt="peeling" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Peeling</h4>
-                        </div>
-                        <div>
-                            <p> Se trata de una exfoliación o descamación de la piel que utiliza sustancias químicas o mecánicas sobre la piel para renovar sus capas y eliminar imperfecciones, con el objetivo rejuvenecer la piel.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/peeling.jpg" alt="peeling" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Peeling</h4>
+                            </div>
+                            <div>
+                                <p> Se trata de una exfoliación o descamación de la piel que utiliza sustancias químicas o mecánicas sobre la piel para renovar sus capas y eliminar imperfecciones, con el objetivo rejuvenecer la piel.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/rosacea.jpg" alt="rosacea" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Rosácea</h4>
-                        </div>
-                        <div>
-                            <p> La rosácea es una afección común de la piel que causa enrojecimiento y vasos sanguíneos visibles en la cara. También puede producir protuberancias rojas llenas de pus.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/rosacea.jpg" alt="rosacea" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Rosácea</h4>
+                            </div>
+                            <div>
+                                <p> La rosácea es una afección común de la piel que causa enrojecimiento y vasos sanguíneos visibles en la cara. También puede producir protuberancias rojas llenas de pus.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -177,88 +193,102 @@
                 <h3 style="color: #ac8137; font-weight: bold; text-decoration: underline;">Aparatología</h3>
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/Alta-frecuencia.jpg" alt="altafrecuencia" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Altafrecuencia</h4>
-                        </div>
-                        <div>
-                            <p> Se trata de electrodos de cristal llenos de gas, que tienen por objetivo generar un aumento de calor en la piel, mayor irrigación sanguínea y enriquecimiento del tejido de oxigeno. Tiene efectos desinfectantes, descongestivos, antiinflamatorios y estimulantes de los tejidos.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/Alta-frecuencia.jpg" alt="altafrecuencia" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Altafrecuencia</h4>
+                            </div>
+                            <div>
+                                <p> Se trata de electrodos de cristal llenos de gas, que tienen por objetivo generar un aumento de calor en la piel, mayor irrigación sanguínea y enriquecimiento del tejido de oxigeno. Tiene efectos desinfectantes, descongestivos, antiinflamatorios y estimulantes de los tejidos.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/electrodos.jpg" alt="electrodos" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Electrodos</h4>
-                        </div>
-                        <div>
-                            <p> Es una técnica no invasiva que sirve para combatir la flaccidez, disminuir la celulitis y modelar el contorno corporal. Funciona produciendo contracciones musculares en la zona en la que se aplica, generando así un efecto de entrenamiento muscular.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/electrodos.jpg" alt="electrodos" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Electrodos</h4>
+                            </div>
+                            <div>
+                                <p> Es una técnica no invasiva que sirve para combatir la flaccidez, disminuir la celulitis y modelar el contorno corporal. Funciona produciendo contracciones musculares en la zona en la que se aplica, generando así un efecto de entrenamiento muscular.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/electroporacion.jpg" alt="electroporador" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Electroporador</h4>
-                        </div>
-                        <div>
-                            <p> El Electroporador es un emisor de corrientes que generan ondas electromagnéticas de frecuencias hectometricas moduladas. Se usa como antiaging, líneas de expresión, tratamiento de celulitis, flacidez, adiposidad, entre otras afecciones.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/electroporacion.jpg" alt="electroporador" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Electroporador</h4>
+                            </div>
+                            <div>
+                                <p> El Electroporador es un emisor de corrientes que generan ondas electromagnéticas de frecuencias hectometricas moduladas. Se usa como antiaging, líneas de expresión, tratamiento de celulitis, flacidez, adiposidad, entre otras afecciones.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/microdermoabrasion.jpg" alt="microdermoabrasion" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Microdermoabración</h4>
-                        </div>
-                        <div>
-                            <p> Permite exfoliar las capas más superficiales de la piel, eliminando las células muertas e impurezas y atenuando los pliegues de la piel, como arrugas o cicatrices.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/microdermoabrasion.jpg" alt="microdermoabrasion" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Microdermoabración</h4>
+                            </div>
+                            <div>
+                                <p> Permite exfoliar las capas más superficiales de la piel, eliminando las células muertas e impurezas y atenuando los pliegues de la piel, como arrugas o cicatrices.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/lipolaser.jpg" alt="lipolaser" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Lipoláser</h4>
-                        </div>
-                        <div>
-                            <p> Es una técnica que permite realizar procedimientos para eliminación de grasa, moldeamiento corporal y reducción de celulitis de manera no invasiva, basado en la aplicación de energía laser de manera segura (y sin dolor) a longitudes de onda y potencias muy precisas.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/lipolaser.jpg" alt="lipolaser" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Lipoláser</h4>
+                            </div>
+                            <div>
+                                <p> Es una técnica que permite realizar procedimientos para eliminación de grasa, moldeamiento corporal y reducción de celulitis de manera no invasiva, basado en la aplicación de energía laser de manera segura (y sin dolor) a longitudes de onda y potencias muy precisas.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/radiofrecuencia.jpg" alt="radiofrecuencia" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Radiofrecuencia</h4>
-                        </div>
-                        <div>
-                            <p> Es un tratamiento utilizado para combatir la flacidez del rostro o del cuerpo, siendo muy eficaz para eliminar arrugas, lineas de expresión e inclusive grasa localizada y también la celulitis, siendo un método seguro con efectos duraderos.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/radiofrecuencia.jpg" alt="radiofrecuencia" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Radiofrecuencia</h4>
+                            </div>
+                            <div>
+                                <p> Es un tratamiento utilizado para combatir la flacidez del rostro o del cuerpo, siendo muy eficaz para eliminar arrugas, lineas de expresión e inclusive grasa localizada y también la celulitis, siendo un método seguro con efectos duraderos.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <div>
-                            <img src="img/ultrasonidos.jpg" alt="ultrasonido" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Ultrasonido</h4>
-                        </div>
-                        <div>
-                            <p> Los ultrasonidos sirven para combatir la celulitis más dura y la grasa o adiposidad localizada, las estrías, cicatrices, el acné y las varices. Además ayuda a mejorar el drenaje linfático, ayudando a eliminar líquidos, como así también la circulación sanguínea.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/ultrasonidos.jpg" alt="ultrasonido" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Ultrasonido</h4>
+                            </div>
+                            <div>
+                                <p> Los ultrasonidos sirven para combatir la celulitis más dura y la grasa o adiposidad localizada, las estrías, cicatrices, el acné y las varices. Además ayuda a mejorar el drenaje linfático, ayudando a eliminar líquidos, como así también la circulación sanguínea.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -271,42 +301,48 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <div>
-                            <img src="img/masajedescontracturante.jpg" alt="descontracturante" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Masajes Descontracturantes</h4>
-                        </div>
-                        <div>
-                            <p> El objetivo del masaje descontracturante es devolver a nuestros músculos a su estado natural, aliviar la tensión que sentimos en la espalda o en el cuello y deshacer los “nudos”, como comúnmente los llamamos, que las malas artes del estrés o una postura incorrecta han provocado en nuestra musculatura.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/masajedescontracturante.jpg" alt="descontracturante" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Masajes Descontracturantes</h4>
+                            </div>
+                            <div>
+                                <p> El objetivo del masaje descontracturante es devolver a nuestros músculos a su estado natural, aliviar la tensión que sentimos en la espalda o en el cuello y deshacer los “nudos”, como comúnmente los llamamos, que las malas artes del estrés o una postura incorrecta han provocado en nuestra musculatura.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <div>
-                            <img src="img/masajereductor.jpg" alt="reductor" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Masajes Reductores</h4>
-                        </div>
-                        <div>
-                            <p> El masaje reductor o modelador, es un tipo de masaje que ayuda a moldear distintas partes del cuerpo como el abdomen, gluteos, piernas, caderas, brazos, etc. y reducir tallas, pudiendose realizar manual o con algún tipo de aparato. Permite reducir la grasa que se acumula en ciertas zonas del cuerpo y al mismo tiempo moldea el cuerpo. Éste se realiza con una presión fuerte y una velocidad más rápida que la forma tradicional, con el objetivo de romper la adiposidad localizada en la zona a tratar.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/masajereductor.jpg" alt="reductor" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Masajes Reductores</h4>
+                            </div>
+                            <div>
+                                <p> El masaje reductor o modelador, es un tipo de masaje que ayuda a moldear distintas partes del cuerpo como el abdomen, gluteos, piernas, caderas, brazos, etc. y reducir tallas, pudiendose realizar manual o con algún tipo de aparato. Permite reducir la grasa que se acumula en ciertas zonas del cuerpo y al mismo tiempo moldea el cuerpo. Éste se realiza con una presión fuerte y una velocidad más rápida que la forma tradicional, con el objetivo de romper la adiposidad localizada en la zona a tratar.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <div>
-                            <img src="img/masajesrelajante.jpg" alt="relajante" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Masajes Relajantes</h4>
-                        </div>
-                        <div>
-                            <p> Existen múltiples variantes de masajes relajantes. Aromaterapia, chocolaterapia (con chocolate), quiropráctica, terapia geotermal (con piedras calientes), o masajes con aceites esenciales, son algunos de ellos.
-
-                                Además, los masajes relajantes se suelen acompañar con recursos externos que aumentan la sensación de placer, calma y relax. Por ejemplo se utiliza una luz tenue, velas y aromas que transmita paz y tranquilidad.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/masajesrelajante.jpg" alt="relajante" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Masajes Relajantes</h4>
+                            </div>
+                            <div>
+                                <p> Existen múltiples variantes de masajes relajantes. Aromaterapia, chocolaterapia (con chocolate), quiropráctica, terapia geotermal (con piedras calientes), o masajes con aceites esenciales, son algunos de ellos.
+    
+                                    Además, los masajes relajantes se suelen acompañar con recursos externos que aumentan la sensación de placer, calma y relax. Por ejemplo se utiliza una luz tenue, velas y aromas que transmita paz y tranquilidad.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -319,28 +355,32 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/depilaciondefinitiva.jpg" alt="definitiva" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Depilacion Definitiva</h4>
-                        </div>
-                        <div>
-                            <p> La principal ventaja de la depilación definitiva es que permite eliminar tanto el vello que crece y sale con normalidad como el que está enquistado o con foliculitis, ya que el láser actúa en el cabello guiado por el color, aunque este permanezca debajo de la piel.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/depilaciondefinitiva.jpg" alt="definitiva" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Depilacion Definitiva</h4>
+                            </div>
+                            <div>
+                                <p> La principal ventaja de la depilación definitiva es que permite eliminar tanto el vello que crece y sale con normalidad como el que está enquistado o con foliculitis, ya que el láser actúa en el cabello guiado por el color, aunque este permanezca debajo de la piel.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/depilaciondescartable.jpg" alt="descartable" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Sistema Descartable</h4>
-                        </div>
-                        <div>
-                            <p> es un método que disminuye la aparición paulatina del vello, y mejora la textura de la piel con el paso del tiempo. Es más higiénico, menos doloroso y más duradero que otras técnicas.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/depilaciondescartable.jpg" alt="descartable" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Sistema Descartable</h4>
+                            </div>
+                            <div>
+                                <p> es un método que disminuye la aparición paulatina del vello, y mejora la textura de la piel con el paso del tiempo. Es más higiénico, menos doloroso y más duradero que otras técnicas.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -353,28 +393,31 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/esmaltado.jpg" alt="esmaltado" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Esmaltado Tradicional</h4>
-                        </div>
-                        <div>
-                            <p> Lucí tus uñas con nuestros esmaltes de excelente calidad, sin dañarlas. La duración aproximada es de 7 a 10 días. Podés elegir entre un diseño clásico, o animarte a probar nuestros diseños de nail-art.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/esmaltado.jpg" alt="esmaltado" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Esmaltado Tradicional</h4>
+                            </div>
+                            <div>
+                                <p> Lucí tus uñas con nuestros esmaltes de excelente calidad, sin dañarlas. La duración aproximada es de 7 a 10 días. Podés elegir entre un diseño clásico, o animarte a probar nuestros diseños de nail-art.
+                                </p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/pedicuria.jpg" alt="pedicuria" class="img-fluid">
-                        </div>
-                        <div>
-                            <h4 style="font-weight: bold;">Pedicuría</h4>
-                        </div>
-                        <div>
-                            <p> La pedicura es el tratamiento de las afecciones cutáneas córneas propias de los pies.
-                            </p>
-                        </div>
+                        <article>
+                            <div>
+                                <img src="img/pedicuria.jpg" alt="pedicuria" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 style="font-weight: bold;">Pedicuría</h4>
+                            </div>
+                            <div>
+                                <p> La pedicura es el tratamiento de las afecciones cutáneas córneas propias de los pies.</p>
+                            </div>
+                        </article>
                     </div>    
                 </div>
             </div>
@@ -382,42 +425,7 @@
         <!--fin section 6-->
 
         <!--FIN CONTENIDO ESTÉTICA-->
-
-        <!--CONTENIDO SALUD-->
-        <section class="container-fluid" id="salud">
-            <div class="container">
-                <div class="titulosalud">
-                    <h2>Salud</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/nutricion.jpg" alt="nutricion" class="img-fluid">
-                        </div>
-                        <div>
-                            <h3 style="color: #ac8137; font-weight: bold; text-decoration: underline;">Nutrición</h3>
-                        </div>
-                        <div>
-                            <p> Contamos con una profesional para asesorarte y armar un plan de alimentacion acorde a tus necesidades, atendiendo tu salud y en concordancia a nuestros tratamientos de estética.
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div>
-                            <img src="img/psicologia.jpg" alt="psicologia" class="img-fluid">
-                        </div>
-                        <div>
-                            <h3 style="color: #ac8137; font-weight: bold; text-decoration: underline;">Psicología</h3>
-                        </div>
-                        <div>
-                            <p> Te ofrecemos un centro integral, donde ademas de cuidar tu cuerpo, cuidamos tu salud mental.
-                                Nuestra Licenciada cuenta con formación en Terapia Cognitivo Conductual, atendiendo adolescentes y adultos.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-        <!--FIN SALUD-->
+    
     </main>
 
     <!--FOOTER-->

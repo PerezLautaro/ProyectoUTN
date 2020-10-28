@@ -9,13 +9,12 @@ img{
     width: 100%;
 }
 
-
 /*HEADER y NAVEGADOR*/
 
 #navegador{
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 #navegador a:hover{
@@ -31,9 +30,7 @@ img{
     margin: 2%;
     font-weight: bold;
     color: #f19100;
-    font-size: 40px;
-    
-    
+    font-size: 40px;  
 }
 
 .titulosalud h2{
